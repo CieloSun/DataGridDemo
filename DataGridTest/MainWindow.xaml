@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DataGridTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow">
     <Grid>
-        
+        <DataGrid HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" AutoGenerateColumns="True" Name="dataGrid" ColumnWidth="*" LoadingRow="DataGrid_LoadingRow"/>
     </Grid>
 </Window>
